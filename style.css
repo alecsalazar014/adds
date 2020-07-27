@@ -1,0 +1,46 @@
+@font-face{
+
+font-family: 'Hurme';
+src: url('fonts/hurme.ttf') 
+format('opentype');
+
+}
+
+@font-face{
+	font-family: 'Glacial';
+	src: url('fonts/GlacialIndifference-Regular.otf') 
+	format('opentype');
+}
+
+
+@font-face{
+	font-family: 'GlacialBold';
+	src: url('fonts/GlacialIndifference-Bold.otf') 
+	format('opentype');
+}
+
+*{
+	font-family: Roboto;
+	font-size: 18px;
+}
+
+body{
+	
+}
+
+
+.text-header{
+	font-family: Hurme;
+}
+
+.roboto{
+	font-family: Roboto;
+}
+
+.text-label{
+	font-family: Glacial;
+}
+
+.f-s-60{
+	font-size: 60px;
+}
